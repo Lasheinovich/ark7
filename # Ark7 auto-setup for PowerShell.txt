@@ -1,0 +1,11 @@
+# Ark7 auto-setup for PowerShell
+$projectPath = "E:\ark7"
+$venvPath = "$projectPath\venv\Scripts\Activate.ps1"
+
+if (Test-Path $venvPath) {
+    Set-Location $projectPath
+    & $venvPath
+    Write-Host "`n✅ Activated venv and moved to ark7 folder!" -ForegroundColor Green
+} else {
+    Write-Host "⚠️ venv not found in $projectPath" -ForegroundColor Yellow
+}
