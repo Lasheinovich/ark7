@@ -1,0 +1,5 @@
+# --- Auto start Ark7 environment ---
+cd /e/ark7
+if [ -f venv/Scripts/activate ]; then
+    source venv/Scripts/activate
+fi
