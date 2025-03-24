@@ -1,0 +1,392 @@
+nohup: ignoring input
+2025-03-23T07:10:08Z INF Starting tunnel tunnelID=ce455010-2c5c-40a8-9c7b-31ca1d6578f3
+2025-03-23T07:10:08Z INF Version 2025.2.1 (Checksum 1dfc2d7ceaa233fcc9b16858721c810fe47c7d1b3d644e1e8d6640570cc2c9ed)
+2025-03-23T07:10:08Z INF GOOS: linux, GOVersion: go1.22.10, GoArch: amd64
+2025-03-23T07:10:08Z INF Settings: map[cred-file:/home/ark7/.cloudflared/ce455010-2c5c-40a8-9c7b-31ca1d6578f3.json credentials-file:/home/ark7/.cloudflared/ce455010-2c5c-40a8-9c7b-31ca1d6578f3.json url:http://localhost:8000]
+2025-03-23T07:10:08Z INF Generated Connector ID: d254df89-526c-4cf2-a339-5d7945a7fda5
+2025-03-23T07:10:08Z INF cloudflared will not automatically update if installed by a package manager.
+2025-03-23T07:10:08Z INF Initial protocol quic
+2025-03-23T07:10:08Z INF ICMP proxy will use 172.31.212.214 as source for IPv4
+2025-03-23T07:10:08Z INF ICMP proxy will use fe80::215:5dff:fea9:afe in zone eth0 as source for IPv6
+2025-03-23T07:10:08Z INF ICMP proxy will use 172.31.212.214 as source for IPv4
+2025-03-23T07:10:08Z INF ICMP proxy will use fe80::215:5dff:fea9:afe in zone eth0 as source for IPv6
+2025-03-23T07:10:08Z INF Starting metrics server on 127.0.0.1:20242/metrics
+2025-03-23T07:10:08Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=0 event=0 ip=198.41.200.13
+2025/03/23 10:10:08 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 7168 kiB, got: 416 kiB). See https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes for details.
+2025-03-23T07:10:09Z INF Registered tunnel connection connIndex=0 connection=a1fe72fb-285d-499d-bedf-8dff9d1231d3 event=0 ip=198.41.200.13 location=ams01 protocol=quic
+2025-03-23T07:10:09Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=1 event=0 ip=198.41.192.227
+2025-03-23T07:10:10Z INF Registered tunnel connection connIndex=1 connection=9719d9fc-8b55-4604-b3b4-f5c0f29c0f53 event=0 ip=198.41.192.227 location=jed03 protocol=quic
+2025-03-23T07:10:10Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.57
+2025-03-23T07:10:11Z INF Registered tunnel connection connIndex=2 connection=1fd3ee23-57bc-4304-998a-3ef3debe4705 event=0 ip=198.41.192.57 location=jed03 protocol=quic
+2025-03-23T07:10:11Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=3 event=0 ip=198.41.200.43
+2025-03-23T07:10:12Z INF Registered tunnel connection connIndex=3 connection=ceffe064-f419-48f3-b158-7e9687895e5f event=0 ip=198.41.200.43 l2025-03-23T07:20:47Z WRN Fai2025-03-23T07:20:47Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.57
+2025-03-23T07:20:47Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.57
+2025-03-23T07:20:47Z INF Retrying connection in up to 1s connIndex2025-03-23T07:20:47Z WRN Fai2025-03-23T07:20:47Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.43
+2025-03-23T07:20:47Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.43
+2025-02025-03-23T07:20:47Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.73
+2025-03-23T07:20:47Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.73
+2025-03-23T07:20:47Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=198.41.200.73
+2025-03-23T07:20:47Z ERR Failed to serve tunnel connection error="timeout: no recent net2025-03-23T07:20:48Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.192.227
+2025-03-23T07:20:48Z ERR Serve tunnel error error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.192.227
+20252025-03-23T07:20:48Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3
+2025-03-23T07:20:48Z INF Using [CurveID(4588) CurveID(25497) 2025-03-23T07:20:48Z ERR Connection terminated error="failed to accep2025-03-23T07:20:48Z INF Registered tunnel connection connIndex=2025-03-23T07:20:49Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0
+2025-03-23T07:20:49Z ERR Connection terminated error="timeout: no recent network activity" connIndex=2
+2025-03-23T07:20:51Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.167
+2025-03-23T07:20:51Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=3 event=0 ip=198.41.200.43
+2025-03-23T07:20:51Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=1 event=0 2025-03-23T07:20:53Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=1 event=0 ip=198.41.200.63
+2025-03-23T07:20:53Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.227
+2025-03-23T07:20:53Z INF Registered tunnel connection connIndex=2 connection=17a9f843-8d30-44d6-90dc-99da240605d2 event=0 ip=198.41.192.227 location=jed03 protocol=quic
+2025-03-23T07:20:54Z INF Registered tunnel connection connIndex=1 connection=08dbbd49-be86-46c2-b9e2-1998e307e17c event=0 ip=198.41.200.63 location=lhr13 protocol=quic
+2025-03-23T08:10:47Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.63
+2025-03-23T08:10:47Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.63
+2025-03-23T08:10:47Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.41.200.63
+2025-03-23T08:10:47Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.227
+2025-03-23T08:10:47Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.227
+2025-03-23T08:10:47Z INF Retrying connection in up to 1s connIndex=2 event=0 ip=198.41.192.227
+2025-03-23T08:10:48Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2025-03-23T08:10:48Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.167
+2025-03-23T08:10:48Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.167
+2025-03-23T08:10:48Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.73
+2025-03-23T08:10:48Z ERR Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.73
+2025-03-23T08:10:48Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=198.41.200.73
+2025-03-23T08:10:48Z ERR Connection terminated error="timeout: no recent network activity" connIndex=1
+2025-03-23T08:10:49Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3
+2025-03-23T08:10:49Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2
+2025-03-23T08:10:49Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=0 event=0 ip=198.41.192.37
+2025-03-23T08:10:50Z INF Registered tunnel connection connIndex=0 connection=bb60580b-04aa-4ad0-ac39-9a8cef4df3e4 event=0 ip=198.41.192.37 location=jed03 protocol=quic
+2025-03-23T08:11:07Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.227
+2025-03-23T08:11:07Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=1 event=0 ip=198.41.200.13
+2025-03-23T08:11:07Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=3 event=0 ip=198.41.200.73
+2025-03-23T08:11:07Z INF Registered tunnel connection connIndex=2 connection=41008d96-befa-4777-a4be-82a6a6ccf41e event=0 ip=198.41.192.227 location=jed03 protocol=quic
+2025-03-23T08:11:07Z INF Registered tunnel connection connIndex=3 connection=afdac0d3-a8cd-4b6c-9864-864b8a6bae3c event=0 ip=198.41.200.73 location=lhr01 protocol=quic
+2025-03-23T08:11:08Z INF Registered tunnel connection connIndex=1 connection=0547ba5f-8f02-4765-b503-33748be168b0 event=0 ip=198.41.200.13 location=lhr14 protocol=quic
+2025-03-23T08:48:31Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.37
+2025-03-23T08:48:31Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.37
+2025-03-23T08:48:31Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.37
+2025-03-23T08:48:31Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.227
+2025-03-23T08:48:31Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.227
+2025-03-23T08:48:31Z INF Retrying connection in up to 1s connIndex=2 event=0 ip=198.41.192.227
+2025-03-23T08:48:32Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.73
+2025-03-23T08:48:32Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.73
+2025-03-23T08:48:32Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=198.41.200.73
+2025-03-23T08:48:32Z WRN Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2
+2025-03-23T08:48:32Z ERR Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.13
+2025-03-23T08:48:32Z ERR Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.13
+2025-03-23T08:48:32Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.41.200.13
+2025-03-23T08:48:33Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=0 event=0 ip=198.41.192.7
+2025-03-23T08:48:33Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3
+2025-03-23T08:48:33Z INF Registered tunnel connection connIndex=0 connection=1d78ec1e-0b8a-45f5-be3a-e21e2dab1043 event=0 ip=198.41.192.7 location=jed03 protocol=quic
+2025-03-23T08:48:33Z WRN Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=1
+2025-03-23T08:48:44Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=1 event=0 ip=198.41.200.13
+2025-03-23T08:48:44Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=3 event=0 ip=198.41.200.73
+2025-03-23T08:48:44Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.227
+2025-03-23T08:48:45Z INF Registered tunnel connection connIndex=2 connection=b4103473-6d83-4f28-9e50-6b026767530e event=0 ip=198.41.192.227 location=jed03 protocol=quic
+2025-03-23T08:48:45Z INF Registered tunnel connection connIndex=3 connection=e1731600-45b3-4376-8a7b-6f56b29e6b26 event=0 ip=198.41.200.73 location=lhr01 protocol=quic
+2025-03-23T08:48:45Z INF Registered tunnel connection connIndex=1 connection=3a32991e-4a6e-4fdf-a7c6-1c3071675558 event=0 ip=198.41.200.13 location=lhr14 protocol=quic
+2025-03-23T08:52:25Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.13
+2025-03-23T08:52:25Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.13
+2025-03-23T08:52:25Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.41.200.13
+2025-03-23T08:52:25Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.73
+2025-03-23T08:52:25Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.73
+2025-03-23T08:52:25Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=198.41.200.73
+2025-03-23T08:52:26Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.227
+2025-03-23T08:52:26Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.227
+2025-03-23T08:52:26Z INF Retrying connection in up to 1s connIndex=2 event=0 ip=198.41.192.227
+2025-03-23T08:52:26Z ERR Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.7
+2025-03-23T08:52:26Z ERR Serve tunnel error error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.7
+2025-03-23T08:52:26Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.7
+2025-03-23T08:52:26Z ERR Connection terminated error="timeout: no recent network activity" connIndex=1
+2025-03-23T08:52:27Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=0 event=0 ip=198.41.192.77
+2025-03-23T08:52:27Z ERR Connection terminated error="timeout: no recent network activity" connIndex=3
+2025-03-23T08:52:27Z INF Registered tunnel connection connIndex=0 connection=cc830c2f-323a-4f53-bba0-9248b9cf409e event=0 ip=198.41.192.77 location=jed03 protocol=quic
+2025-03-23T08:52:27Z WRN Connection terminated error="timeout: no recent network activity" connIndex=2
+2025-03-23T08:52:33Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=1 event=0 ip=198.41.200.113
+2025-03-23T08:52:33Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.37
+2025-03-23T08:52:33Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=3 event=0 ip=198.41.200.193
+2025-03-23T08:52:33Z INF Registered tunnel connection connIndex=2 connection=7259589c-ac59-43ab-81ac-866dd6187757 event=0 ip=198.41.192.37 location=jed03 protocol=quic
+2025-03-23T08:52:34Z INF Registered tunnel connection connIndex=3 connection=714d848c-afaf-49b3-902b-2d2a181bfc45 event=0 ip=198.41.200.193 location=ams18 protocol=quic
+2025-03-23T08:52:34Z INF Registered tunnel connection connIndex=1 connection=7532d799-103e-42b5-b964-5af83766c517 event=0 ip=198.41.200.113 location=ams18 protocol=quic
+2025-03-23T09:00:48Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.113
+2025-03-23T09:00:48Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.113
+2025-03-23T09:00:48Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.41.200.113
+2025-03-23T09:00:48Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.193
+2025-03-23T09:00:48Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.193
+2025-03-23T09:00:48Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=198.41.200.193
+2025-03-23T09:00:48Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.37
+2025-03-23T09:00:48Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.37
+2025-03-23T09:00:48Z INF Retrying connection in up to 1s connIndex=2 event=0 ip=198.41.192.37
+2025-03-23T09:00:49Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.77
+2025-03-23T09:00:49Z ERR Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.77
+2025-03-23T09:00:49Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.77
+2025-03-23T09:00:49Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2
+2025-03-23T09:00:49Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3
+2025-03-23T09:00:50Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0
+2025-03-23T09:00:50Z ERR Connection terminated error="timeout: no recent network activity" connIndex=1
+2025-03-23T09:00:55Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.37
+2025-03-23T09:00:55Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=1 event=0 ip=198.41.200.43
+2025-03-23T09:00:55Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=3 event=0 ip=198.41.200.193
+2025-03-23T09:00:55Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=0 event=0 ip=198.41.192.77
+2025-03-23T09:00:55Z INF Registered tunnel connection connIndex=2 connection=90d87218-8af3-4203-8c7e-38a3c8f12f18 event=0 ip=198.41.192.37 location=jed03 protocol=quic
+2025-03-23T09:00:55Z INF Registered tunnel connection connIndex=0 connection=df253867-31d4-480f-a16f-58c056cb3572 event=0 ip=198.41.192.77 location=jed03 protocol=quic
+2025-03-23T09:00:55Z INF Registered tunnel connection connIndex=3 connection=de260d54-5b38-4f06-a67d-29e69f9d2837 event=0 ip=198.41.200.193 location=ams18 protocol=quic
+2025-03-23T09:00:55Z INF Registered tunnel connection connIndex=1 connection=39d376e1-2109-466e-9a74-3b2025-03-23T09:01:07Z INF Using [CurveID(4588) CurveID(25497) Curv2025-03-23T09:50:49Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.77
+2025-03-23T09:50:49Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.77
+2025-03-23T09:50:49Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.77
+2025-03-23T09:50:49Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.37
+2025-03-23T09:50:49Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.37
+2025-03-23T09:50:49Z INF Retrying connection in up to 1s connIndex=2 event=0 ip=198.41.192.37
+2025-03-23T09:50:49Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.193
+2025-03-23T09:50:49Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.193
+2025-03-23T09:50:49Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=198.41.200.193
+2025-03-23T09:50:50Z ERR Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.43
+2025-03-23T09:50:50Z ERR Serve tunnel error error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.43
+2025-03-23T09:50:50Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.41.200.43
+2025-03-23T09:50:50Z ERR Connection terminated error="timeout: no recent network activity" connIndex=0
+2025-03-23T09:50:50Z ERR Connection terminated error="timeout: no recent network activity" connIndex=3
+2025-03-23T09:50:51Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2
+2025-03-23T09:50:51Z ERR Connection terminated error="timeout: no recent network activity" connIndex=1
+2025-03-23T09:51:06Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T09:51:06Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=1 event=0 ip=198.41.200.233
+2025-03-23T09:51:06Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T09:51:06Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.37
+2025-03-23T09:51:06Z INF Registered tunnel connection connIndex=2 connection=78d56c4b-b5cb-4826-9cf0-6bb7d37d364c event=0 ip=198.41.192.37 location=jed03 protocol=quic
+2025-03-23T09:51:06Z INF Registered tunnel connection connIndex=0 connection=c48a830d-b19c-4466-8052-570b5d409116 event=0 ip=198.41.192.57 location=jed03 protocol=quic
+2025-03-23T09:51:07Z INF Registered tunnel connection connIndex=1 connection=d2e4e499-34f9-4734-b072-3aeffc4de6d9 event=0 ip=198.41.200.233 location=ams19 protocol=quic
+2025-03-23T09:51:07Z INF Registered tunnel connection connIndex=3 connection=aeb3e888-998f-4a5a-930f-2df7de954124 event=0 ip=198.41.200.23 location=ams20 protocol=quic
+2025-03-23T10:40:49Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.233
+2025-03-23T10:40:49Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.233
+2025-03-23T10:40:49Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.41.200.233
+2025-03-23T10:40:49Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T10:40:49Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T10:40:49Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T10:40:50Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T10:40:50Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T10:40:50Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T10:40:51Z WRN Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0
+2025-03-23T10:40:51Z ERR Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.37
+2025-03-23T10:40:51Z ERR Serve tunnel error error="timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.37
+2025-03-23T10:40:51Z INF Retrying connection in up to 1s connIndex=2 event=0 ip=198.41.192.37
+2025-03-23T10:40:51Z ERR Connection terminated error="timeout: no recent network activity" connIndex=1
+2025-03-23T10:40:52Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3
+2025-03-23T10:40:52Z ERR Connection terminated error="timeout: no recent network activity" connIndex=2
+2025-03-23T10:41:00Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T10:41:00Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=1 event=0 ip=198.41.200.73
+2025-03-23T10:41:00Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T10:41:00Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T10:41:00Z INF Registered tunnel connection connIndex=0 connection=63722c55-e24e-44fd-ad6f-b08dbeeb51ce event=0 ip=198.41.192.57 location=jed03 protocol=quic
+2025-03-23T10:41:00Z INF Registered tunnel connection connIndex=3 connection=c0341d04-852c-4e71-b779-9be5acfc5e86 event=0 ip=198.41.200.23 location=ams20 protocol=quic
+2025-03-23T10:41:00Z INF Registered tunnel connection connIndex=1 connection=7e8cd90a-0394-435c-b4f4-d5f60df8d7be event=0 ip=198.41.200.73 location=lhr01 protocol=quic
+2025-03-23T10:41:01Z INF Registered tunnel connection connIndex=2 connection=0cd586f0-c4bd-4cf7-86d1-8c799996ac2a event=0 ip=198.41.192.7 location=jed03 protocol=quic
+2025-03-23T11:08:34Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.73
+2025-03-23T11:08:34Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.73
+2025-03-23T11:08:34Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.41.200.73
+2025-03-23T11:08:34Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T11:08:34Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T11:08:34Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T11:08:34Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T11:08:34Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T11:08:34Z INF Retrying connection in up to 1s connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T11:08:34Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T11:08:34Z ERR Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T11:08:34Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T11:08:34Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3
+2025-03-23T11:08:34Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0
+2025-03-23T11:08:34Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2
+2025-03-23T11:08:35Z ERR Connection terminated error="timeout: no recent network activity" connIndex=1
+2025-03-23T11:08:39Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T11:08:39Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T11:08:39Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T11:08:39Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=1 event=0 ip=198.41.200.43
+2025-03-23T11:08:40Z INF Registered tunnel connection connIndex=0 connection=9b3706c4-f2b0-433b-978b-3e820e849638 event=0 ip=198.41.192.57 location=jed03 protocol=quic
+2025-03-23T11:08:40Z INF Registered tunnel connection connIndex=2 connection=d12ff141-48f8-43d9-82fd-951245d07d44 event=0 ip=198.41.192.7 location=jed03 protocol=quic
+2025-03-23T11:08:40Z INF Registered tunnel connection connIndex=3 connection=17af3838-dcfd-4c6b-a864-6d9b1924e531 event=0 ip=198.41.200.23 location=ams20 protocol=quic
+2025-03-23T11:08:40Z INF Registered tunnel connection connIndex=1 connection=710afc94-4b33-43ff-8c0b-3c6b244f5d8b event=0 ip=198.41.200.43 location=ams20 protocol=quic
+2025-03-23T11:18:29Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.43
+2025-03-23T11:18:29Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.43
+2025-03-23T11:18:29Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.41.200.43
+2025-03-23T11:18:29Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T11:18:29Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T11:18:29Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T11:18:29Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T11:18:29Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T11:18:29Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T11:18:29Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T11:18:29Z ERR Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T11:18:29Z INF Retrying connection in up to 1s connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T11:18:31Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2
+2025-03-23T11:18:31Z ERR Connection terminated error="timeout: no recent network activity" connIndex=1
+2025-03-23T11:18:31Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0
+2025-03-23T11:18:31Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3
+2025-03-23T11:18:32Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T11:18:32Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=1 event=0 ip=198.41.200.73
+2025-03-23T11:18:32Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T11:18:32Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T11:18:33Z INF Registered tunnel connection connIndex=2 connection=4cd601e8-8ab4-4f52-8c8f-7c72c9a0ec36 event=0 ip=198.41.192.7 location=jed03 protocol=quic
+2025-03-23T11:18:33Z INF Registered tunnel connection connIndex=0 connection=aa76b970-81f1-4887-b24f-6e6df79313c5 event=0 ip=198.41.192.57 location=jed03 protocol=quic
+2025-03-23T11:18:33Z INF Registered tunnel connection connIndex=3 connection=9ec93a13-42ef-41a7-9ef4-cd5da45094fd event=0 ip=198.41.200.23 location=ams20 protocol=quic
+2025-03-23T11:18:33Z INF Registered tunnel connection connIndex=1 connection=20ec28a8-498f-41d2-9be8-a1befb717c1a event=0 ip=198.41.200.73 location=lhr01 protocol=quic
+2025-03-23T11:22:13Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T11:22:13Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T11:22:13Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T11:22:13Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.73
+2025-03-23T11:22:13Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.73
+2025-03-23T11:22:13Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.41.200.73
+2025-03-23T11:22:13Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T11:22:13Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T11:22:13Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T11:22:13Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T11:22:13Z ERR Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T11:22:13Z INF Retrying connection in up to 1s connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T11:22:13Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0
+2025-03-23T11:22:13Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3
+2025-03-23T11:22:13Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=2
+2025-03-23T11:22:13Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=1
+2025-03-23T11:22:32Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=1 event=0 ip=198.41.200.73
+2025-03-23T11:22:32Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T11:22:32Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T11:22:32Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T11:22:32Z INF Registered tunnel connection connIndex=2 connection=b6ce472b-193c-44fd-a141-313d49eb4364 event=0 ip=198.41.192.7 location=jed03 protocol=quic
+2025-03-23T11:22:32Z INF Registered tunnel connection connIndex=1 connection=03c5ee3c-ca8c-454c-8c99-7bf186f919d8 event=0 ip=198.41.200.73 location=lhr01 protocol=quic
+2025-03-23T11:22:32Z INF Registered tunnel connection connIndex=0 connection=85f81edc-28a3-471f-8c0f-58c619126066 event=0 ip=198.41.192.57 location=jed03 protocol=quic
+2025-03-23T11:22:32Z INF Registered tunnel connection connIndex=3 connection=49282729-cafe-448d-9b38-81c0e18884e3 event=0 ip=198.41.200.23 location=ams20 protocol=quic
+2025-03-23T11:30:50Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T11:30:50Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T11:30:50Z INF Retrying connection in up to 1s connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T11:30:50Z WRN Connection terminated error="timeout: no recent network activity" connIndex=2
+2025-03-23T11:30:51Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T11:30:51Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T11:30:51Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T11:30:51Z WRN Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T11:30:51Z WRN Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T11:30:51Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T11:30:52Z WRN Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=0
+2025-03-23T11:30:52Z WRN Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=3
+2025-03-23T11:30:53Z ERR Failed to serve tunnel connection error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.73
+2025-03-23T11:30:53Z ERR Serve tunnel error error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=1 event=0 ip=198.41.200.73
+2025-03-23T11:30:53Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.41.200.73
+2025-03-23T11:30:54Z ERR Connection terminated error="failed to accept QUIC stream: timeout: no recent network activity" connIndex=1
+2025-03-23T11:31:02Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T11:31:02Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T11:31:02Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.37
+2025-03-23T11:31:02Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=1 event=0 ip=198.41.200.73
+2025-03-23T11:31:02Z INF Registered tunnel connection connIndex=0 connection=b76f1f04-e11b-4376-bccc-ee42ef03890b event=0 ip=198.41.192.57 location=jed03 protocol=quic
+2025-03-23T11:31:03Z INF Registered tunnel connection connIndex=1 connection=4d73231a-f7c2-44e1-b598-2a00bd8b8056 event=0 ip=198.41.200.73 location=lhr01 protocol=quic
+2025-03-23T11:31:03Z INF Registered tunnel connection connIndex=3 connection=fb4c8eef-3be4-4dc1-923e-3d328dc45ab6 event=0 ip=198.41.200.23 location=ams20 protocol=quic
+2025-03-23T11:31:03Z INF Registered tunnel connection connIndex=2 connection=26b269f3-a286-4ab5-bbbf-1bb7903b2af6 event=0 ip=198.41.192.37 location=jed03 protocol=quic
+2025-03-23T12:01:10Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=3 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:01:11Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=3 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.200.23 type=http
+2025-03-23T12:01:28Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=1 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:01:29Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=1 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.200.73 type=http
+2025-03-23T12:06:02Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=2 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:06:02Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=2 dest=https://globalarkacademy.org/ event=0 ip=198.41.192.37 type=http
+2025-03-23T12:06:27Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:06:27Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.192.57 type=http
+2025-03-23T12:08:05Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=1 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:08:05Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=1 dest=https://globalarkacademy.org/ event=0 ip=198.41.200.73 type=http
+2025-03-23T12:08:51Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=1 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:08:52Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=1 dest=https://globalarkacademy.org/ event=0 ip=198.41.200.73 type=http
+2025-03-23T12:10:11Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=1 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:10:11Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=1 dest=https://globalarkacademy.org/ event=0 ip=198.41.200.73 type=http
+2025-03-23T12:11:19Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=2 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:11:19Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=2 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.192.37 type=http
+2025-03-23T12:11:35Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=3 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:11:35Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=2 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:11:35Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=3 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.200.23 type=http
+2025-03-23T12:11:35Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=2 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.192.37 type=http
+2025-03-23T12:16:36Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=1 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:16:36Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=1 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.200.73 type=http
+2025-03-23T12:16:47Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:16:47Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.192.57 type=http
+2025-03-23T12:20:51Z WRN Failed to serve tunnel connection error="context canceled" connIndex=1 event=0 ip=198.41.200.73
+2025-03-23T12:20:51Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.41.200.73
+2025-03-23T12:20:51Z WRN Connection terminated error="context canceled" connIndex=1
+2025-03-23T12:20:52Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T12:20:52Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T12:20:52Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=198.41.200.23
+2025-03-23T12:20:52Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.37
+2025-03-23T12:20:52Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.37
+2025-03-23T12:20:52Z INF Retrying connection in up to 1s connIndex=2 event=0 ip=198.41.192.37
+2025-03-23T12:20:52Z ERR Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T12:20:52Z ERR Serve tunnel error error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T12:20:52Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.57
+2025-03-23T12:20:53Z ERR Connection terminated error="timeout: no recent network activity" connIndex=0
+2025-03-23T12:20:54Z ERR Connection terminated error="timeout: no recent network activity" connIndex=3
+2025-03-23T12:20:54Z ERR Connection terminated error="timeout: no recent network activity" connIndex=2
+2025-03-23T12:21:02Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.7
+2025-03-23T12:21:02Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=3 event=0 ip=198.41.200.53
+2025-03-23T12:21:02Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=0 event=0 ip=198.41.192.107
+2025-03-23T12:21:02Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=1 event=0 ip=198.41.200.73
+2025-03-23T12:21:03Z INF Registered tunnel connection connIndex=3 connection=ae33e827-1fcb-4185-8ed0-2e49a05c266f event=0 ip=198.41.200.53 location=ams18 protocol=quic
+2025-03-23T12:21:03Z INF Registered tunnel connection connIndex=2 connection=8927b9da-32b6-422e-b098-31840f4ca270 event=0 ip=198.41.192.7 location=jed03 protocol=quic
+2025-03-23T12:21:03Z INF Registered tunnel connection connIndex=0 connection=7043d186-0a25-4835-b078-7f8767653b0d event=0 ip=198.41.192.107 location=jed03 protocol=quic
+2025-03-23T12:21:03Z INF Registered tunnel connection connIndex=1 connection=8bb4e0fa-1202-40d4-b66b-b54113e3ccea event=0 ip=198.41.200.73 location=lhr01 protocol=quic
+2025-03-23T12:21:21Z WRN Failed to serve tunnel connection error="context canceled" connIndex=0 event=0 ip=198.41.192.107
+2025-03-23T12:21:21Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.192.107
+2025-03-23T12:21:23Z WRN Connection terminated error="context canceled" connIndex=0
+2025-03-23T12:21:27Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=0 event=0 ip=198.41.192.107
+2025-03-23T12:21:27Z INF Registered tunnel connection connIndex=0 connection=11637019-7859-4b5e-a82d-5158caa48377 event=0 ip=198.41.192.107 location=jed03 protocol=quic
+ences connIndex=2 event=0 ip=198.41.192.57
+2025-03-23T11:31:10Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=3 event=0 ip=198.41.200.53
+2025-03-23T11:31:10Z INF Registered tunnel connection connIndex=2 connection=a2f15bb3-cff1-4a9c-b35f-2d4cae852b1c event=0 ip=198.41.192.57 location=jed03 protocol=quic
+2025-03-23T11:31:11Z INF Registered tunnel connection connIndex=0 connection=d0ef3a4a-0713-4947-b3d2-579a0e366f10 event=0 ip=198.41.200.73 location=lhr01 protocol=quic
+2025-03-23T11:31:11Z INF Registered tunnel connection connIndex=3 connection=74321fc0-07a8-4d1f-9d99-2aa3f79303bb event=0 ip=198.41.200.53 location=lhr01 protocol=quic
+2025-03-23T11:31:11Z INF Registered tunnel connection connIndex=1 connection=0eae52a1-d435-4f03-8368-9e5d9a36cced event=0 ip=198.41.192.167 location=jed03 protocol=quic
+2025-03-23T11:31:36Z WRN Failed to serve tunnel connection error="Application error 0x0 (remote)" connIndex=2 event=0 ip=198.41.192.57
+2025-03-23T11:31:36Z WRN Serve tunnel error error="Application error 0x0 (remote)" connIndex=2 event=0 ip=198.41.192.57
+2025-03-23T11:31:36Z INF Retrying connection in up to 1s connIndex=2 event=0 ip=198.41.192.57
+2025-03-23T11:31:36Z WRN Connection terminated error="Application error 0x0 (remote)" connIndex=2
+2025-03-23T11:32:02Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.57
+2025-03-23T11:32:02Z INF Registered tunnel connection connIndex=2 connection=12f867c9-7827-435b-80a5-df5353c5e102 event=0 ip=198.41.192.57 location=jed03 protocol=quic
+2025-03-23T12:01:10Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=1 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:01:11Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=1 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.192.167 type=http
+2025-03-23T12:01:19Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=3 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:01:19Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=2 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:01:19Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=2 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.192.57 type=http
+2025-03-23T12:01:19Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=3 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.200.53 type=http
+2025-03-23T12:01:28Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:01:29Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.200.73 type=http
+2025-03-23T12:06:27Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=3 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:06:27Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=3 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.200.53 type=http
+2025-03-23T12:06:38Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=1 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:06:38Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=3 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:06:38Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=3 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.200.53 type=http
+2025-03-23T12:06:38Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=1 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.192.167 type=http
+2025-03-23T12:09:57Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:09:57Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:09:57Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.200.73 type=http
+2025-03-23T12:09:57Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.200.73 type=http
+2025-03-23T12:11:19Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=3 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:11:19Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=3 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.200.53 type=http
+2025-03-23T12:16:36Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:16:36Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=0 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.200.73 type=http
+2025-03-23T12:16:47Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=1 event=1 ingressRule=0 originService=http://localhost:8000
+2025-03-23T12:16:47Z ERR Request failed error="Incoming request ended abruptly: context canceled" connIndex=1 dest=http://globalarkacademy.org/.well-known/acme-challenge/__resolve-check event=0 ip=198.41.192.167 type=http
+2025-03-23T12:20:51Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2025-03-23T12:20:51Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=0 event=0 ip=198.41.200.73
+2025-03-23T12:20:51Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.41.200.73
+2025-03-23T12:20:52Z WRN Failed to serve tunnel connection error="context canceled" connIndex=3 event=0 ip=198.41.200.53
+2025-03-23T12:20:52Z INF Retrying connection in up to 1s connIndex=3 event=0 ip=198.41.200.53
+2025-03-23T12:20:52Z WRN Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.57
+2025-03-23T12:20:52Z WRN Serve tunnel error error="timeout: no recent network activity" connIndex=2 event=0 ip=198.41.192.57
+2025-03-23T12:20:52Z INF Retrying connection in up to 1s connIndex=2 event=0 ip=198.41.192.57
+2025-03-23T12:20:52Z ERR Failed to serve tunnel connection error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.192.167
+2025-03-23T12:20:52Z ERR Serve tunnel error error="timeout: no recent network activity" connIndex=1 event=0 ip=198.41.192.167
+2025-03-23T12:20:52Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.41.192.167
+2025-03-23T12:20:53Z ERR Connection terminated error="timeout: no recent network activity" connIndex=2
+2025-03-23T12:20:53Z ERR Connection terminated error="timeout: no recent network activity" connIndex=0
+2025-03-23T12:20:53Z ERR Connection terminated error="context canceled" connIndex=3
+2025-03-23T12:20:54Z ERR Connection terminated error="timeout: no recent network activity" connIndex=1
+2025-03-23T12:21:12Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=3 event=0 ip=198.41.200.53
+2025-03-23T12:21:12Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=0 event=0 ip=198.41.200.33
+2025-03-23T12:21:12Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.67
+2025-03-23T12:21:12Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=1 event=0 ip=198.41.192.77
+2025-03-23T12:21:13Z INF Registered tunnel connection connIndex=2 connection=21fac987-0da7-4de1-95e8-2fd164f4138d event=0 ip=198.41.192.67 location=jed03 protocol=quic
+2025-03-23T12:21:13Z INF Registered tunnel connection connIndex=3 connection=890b77e2-004c-44e6-9efd-23ae52c85f99 event=0 ip=198.41.200.53 location=lhr01 protocol=quic
+2025-03-23T12:21:13Z INF Registered tunnel connection connIndex=1 connection=de4180dd-a802-423f-ab0f-abcc06ff323f event=0 ip=198.41.192.77 location=jed03 protocol=quic
+2025-03-23T12:21:13Z INF Registered tunnel connection connIndex=0 connection=ca332c28-c778-4b18-b5d0-a702399c676c event=0 ip=198.41.200.33 location=ams18 protocol=quic
+2025-03-23T12:21:35Z WRN Failed to serve tunnel connection error="Application error 0x0 (remote)" connIndex=2 event=0 ip=198.41.192.67
+2025-03-23T12:21:35Z WRN Serve tunnel error error="Application error 0x0 (remote)" connIndex=2 event=0 ip=198.41.192.67
+2025-03-23T12:21:35Z INF Retrying connection in up to 1s connIndex=2 event=0 ip=198.41.192.67
+2025-03-23T12:21:36Z WRN Connection terminated error="Application error 0x0 (remote)" connIndex=2
+2025-03-23T12:21:55Z INF Using [CurveID(4588) CurveID(25497) CurveP256] as curve preferences connIndex=2 event=0 ip=198.41.192.67
+2025-03-23T12:21:56Z INF Registered tunnel connection connIndex=2 connection=bb83740d-9402-40e0-a2ca-6a9ca1c3f825 event=0 ip=198.41.192.67 location=jed03 protocol=quic

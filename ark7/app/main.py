@@ -1,10 +1,12 @@
 from fastapi import FastAPI
-from app.api.v1 import routes
+from app.api.v1.routes import router
 
-app = FastAPI(
-    title="The Approach of Life API",
-    description="Root Cause 7 + DDD Universal AI Framework",
-    version="0.1.0"
-)
+app = FastAPI()
 
-app.include_router(routes.router)
+# Include the API router
+app.include_router(router)
+
+# ✅ Root route for quick check
+@app.get("/")
+def root():
+    return {"message": "🌍 Ark7 API is running!"}
